@@ -1,0 +1,82 @@
+1 public、protected、private的区别
+
+第一: private,public,protected的访问范围:
+
+private: 只能由该类中的函数、其友元函数访问,不能被任何其他访问，该类的对象也不能访问.
+protected: 可以被该类中的函数、子类的函数、以及其友元函数访问,但不能被该类的对象访问
+public: 可以被该类中的函数、子类的函数、其友元函数访问,也可以由该类的对象访问
+注：友元函数包括两种：设为友元的全局函数，设为友元类中的成员函数
+
+第二:类的继承后方法属性变化:
+
+使用private继承,父类的所有方法在子类中变为private;
+使用protected继承,父类的protected和public方法在子类中变为protected,private方法不变;
+使用public继承,父类中的方法属性不发生改变;
+
+三种访问权限
+
+public:可以被任意实体访问
+
+protected:只允许子类及本类的成员函数访问
+
+private:只允许本类的成员函数访问
+
+
+
+三种继承方式
+
+public 继承
+
+protect 继承
+
+private 继承
+
+
+
+组合结果
+
+基类中 继承方式 子类中
+
+public ＆ public继承 => public
+
+public ＆ protected继承 => protected
+
+public ＆ private继承 = > private
+
+
+protected ＆ public继承 => protected
+
+protected ＆ protected继承 => protected
+
+protected ＆ private继承 = > private
+
+
+private ＆ public继承 => 子类无权访问
+
+private ＆ protected继承 => 子类无权访问
+
+private ＆ private继承 = > 子类无权访问
+
+
+
+由以上组合结果可以看出
+
+1、public继承不改变基类成员的访问权限
+
+2、private继承使得基类所有成员在子类中的访问权限变为private
+
+3、protected继承将基类中public成员变为子类的protected成员，其它成员的访问 权限不变。
+
+4、基类中的private成员不受继承方式的影响，子类永远无权访问。
+
+此外，在使用private继承时，还存在另外一种机制：准许访问 。
+
+我们已经知道，在基类以private方式被继承时，其public和protected成员在子类中变为private成员。然而某些情况下，需要在子类中将一个或多个继承的成员恢复其在基类中的访问权限。
+
+
+
+C++支持以两种方式实现该目的
+
+方法一，使用using 语句，这是C++标准建议使用的方式
+
+方法二，使用访问声明，形式为 base-class::member;， 位置在子类中适当的访问声明处。(注，只能恢复原有访问权限，而不能提高或降低访问权限)

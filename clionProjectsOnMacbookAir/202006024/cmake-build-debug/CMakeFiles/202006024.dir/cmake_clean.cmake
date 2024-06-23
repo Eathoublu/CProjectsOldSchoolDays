@@ -1,0 +1,40 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/202006024.dir/main.cpp.o"
+  "CMakeFiles/202006024.dir/bin2dec.cpp.o"
+  "CMakeFiles/202006024.dir/argslib.cpp.o"
+  "CMakeFiles/202006024.dir/faceobj.cpp.o"
+  "CMakeFiles/202006024.dir/structure.cpp.o"
+  "CMakeFiles/202006024.dir/filed.cpp.o"
+  "CMakeFiles/202006024.dir/pointexample.cpp.o"
+  "CMakeFiles/202006024.dir/static_function.cpp.o"
+  "CMakeFiles/202006024.dir/friends.cpp.o"
+  "CMakeFiles/202006024.dir/friendclass.cpp.o"
+  "CMakeFiles/202006024.dir/consttype.cpp.o"
+  "CMakeFiles/202006024.dir/array.cpp.o"
+  "CMakeFiles/202006024.dir/forbasedonrange.cpp.o"
+  "CMakeFiles/202006024.dir/pointer.cpp.o"
+  "CMakeFiles/202006024.dir/jichengpaisheng.cpp.o"
+  "CMakeFiles/202006024.dir/operator+.cpp.o"
+  "CMakeFiles/202006024.dir/operator-single.cpp.o"
+  "CMakeFiles/202006024.dir/relationship_operator.cpp.o"
+  "CMakeFiles/202006024.dir/++--override.cpp.o"
+  "CMakeFiles/202006024.dir/=override.cpp.o"
+  "CMakeFiles/202006024.dir/calloverride.cpp.o"
+  "CMakeFiles/202006024.dir/【】override.cpp.o"
+  "CMakeFiles/202006024.dir/memberrequestoverrride.cpp.o"
+  "CMakeFiles/202006024.dir/other.cpp.o"
+  "CMakeFiles/202006024.dir/kaoshi1.cpp.o"
+  "CMakeFiles/202006024.dir/kaoshi2.cpp.o"
+  "CMakeFiles/202006024.dir/kaoshi3.cpp.o"
+  "CMakeFiles/202006024.dir/kaoshi4.cpp.o"
+  "CMakeFiles/202006024.dir/20200626.cpp.o"
+  "CMakeFiles/202006024.dir/20200627.cpp.o"
+  "CMakeFiles/202006024.dir/inoutoverride.cpp.o"
+  "202006024.pdb"
+  "202006024"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/202006024.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/eathoublu/CLionProjects/20200413/main.c
+stdio.h
+-
+stdlib.h
+-
+pthread.h
+-
+semaphore.h
+-
+errno.h
+-
+unistd.h
+-
+stdio.h
+-
+unistd.h
+-
+stdlib.h
+-
+string.h
+-
+pthread.h
+-
+semaphore.h
+-
+
+/Users/eathoublu/CLionProjects/20200413/test.c
+

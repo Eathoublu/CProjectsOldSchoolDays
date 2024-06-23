@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/eathoublu/CLionProjects/tet_@/main.cpp
+iostream
+-
+iomanip
+-
+string.h
+-
+fstream
+-
+iostream
+-
+string
+-
+fstream
+-
+sstream
+-
+stdlib.h
+-
+

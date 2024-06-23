@@ -1,0 +1,4 @@
+/Users/eathoublu/CLionProjects/20200608/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/eathoublu/CLionProjects/20200608/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/eathoublu/CLionProjects/20200608/cmake-build-debug/CMakeFiles/CatalogTree.dir
+/Users/eathoublu/CLionProjects/20200608/cmake-build-debug/CMakeFiles/CatalogTree_autogen.dir

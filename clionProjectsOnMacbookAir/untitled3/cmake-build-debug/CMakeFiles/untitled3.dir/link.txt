@@ -1,0 +1,2 @@
+/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc libuntitled3.a  CMakeFiles/untitled3.dir/library.c.o
+/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib libuntitled3.a

@@ -1,0 +1,3 @@
+/Users/eathoublu/CLionProjects/DS2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/eathoublu/CLionProjects/DS2/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/eathoublu/CLionProjects/DS2/cmake-build-debug/CMakeFiles/DS2.dir

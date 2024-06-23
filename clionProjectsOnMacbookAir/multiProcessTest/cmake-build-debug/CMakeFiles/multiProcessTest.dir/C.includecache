@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/eathoublu/CLionProjects/multiProcessTest/main.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+unistd.h
+-
+pthread.h
+-
+time.h
+-
+

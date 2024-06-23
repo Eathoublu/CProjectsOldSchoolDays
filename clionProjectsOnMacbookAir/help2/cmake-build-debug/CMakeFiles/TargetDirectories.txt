@@ -1,0 +1,3 @@
+/Users/eathoublu/CLionProjects/help2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/eathoublu/CLionProjects/help2/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/eathoublu/CLionProjects/help2/cmake-build-debug/CMakeFiles/help2.dir
