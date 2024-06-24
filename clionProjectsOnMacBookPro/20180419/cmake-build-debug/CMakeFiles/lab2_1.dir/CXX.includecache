@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/eathoublu/CLionProjects/20180419/employee.cpp
+
+/Users/eathoublu/CLionProjects/20180419/lab2_1.cpp
+
+/Users/eathoublu/CLionProjects/20180419/lab2_2.cpp
+
+/Users/eathoublu/CLionProjects/20180419/lab2_3.cpp
+
+/Users/eathoublu/CLionProjects/20180419/lab2_4.cpp
+
+/Users/eathoublu/CLionProjects/20180419/test.cpp
+
+/Users/eathoublu/CLionProjects/20180419/test_12.cpp
+iostream
+-
+
+/Users/eathoublu/CLionProjects/20180419/test_2.cpp
+
+/Users/eathoublu/CLionProjects/20180419/test_3.cpp
+
+/Users/eathoublu/CLionProjects/20180419/test_5.cpp
+

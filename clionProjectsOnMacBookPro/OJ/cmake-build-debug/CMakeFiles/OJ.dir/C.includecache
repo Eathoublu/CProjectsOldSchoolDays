@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/eathoublu/CLionProjects/OJ/cmake-build-debug/help_2.c
+
+/Users/eathoublu/CLionProjects/OJ/help.c
+
+/Users/eathoublu/CLionProjects/OJ/test_1.c
+stdio.h
+-
+stdlib.h
+-
+

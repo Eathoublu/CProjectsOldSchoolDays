@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="OJ"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/eathoublu/CLionProjects/OJ/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/eathoublu/CLionProjects/OJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/eathoublu/CLionProjects/OJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/eathoublu/CLionProjects/OJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/eathoublu/CLionProjects/OJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/eathoublu/CLionProjects/OJ/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/eathoublu/CLionProjects/OJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/eathoublu/CLionProjects/OJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/eathoublu/CLionProjects/OJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/eathoublu/CLionProjects/OJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/eathoublu/CLionProjects/OJ/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/eathoublu/CLionProjects/OJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/eathoublu/CLionProjects/OJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/eathoublu/CLionProjects/OJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/eathoublu/CLionProjects/OJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="OJ">
+				<Option output="/Users/eathoublu/CLionProjects/OJ/cmake-build-debug/OJ" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/eathoublu/CLionProjects/OJ/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/eathoublu/CLionProjects/OJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 OJ"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/eathoublu/CLionProjects/OJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/eathoublu/CLionProjects/OJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/eathoublu/CLionProjects/OJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="OJ/fast">
+				<Option output="/Users/eathoublu/CLionProjects/OJ/cmake-build-debug/OJ" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/eathoublu/CLionProjects/OJ/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/eathoublu/CLionProjects/OJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 OJ/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/eathoublu/CLionProjects/OJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/eathoublu/CLionProjects/OJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/eathoublu/CLionProjects/OJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/eathoublu/CLionProjects/OJ/PP1.cpp">
+			<Option target="OJ"/>
+		</Unit>
+		<Unit filename="/Users/eathoublu/CLionProjects/OJ/PP2.cpp">
+			<Option target="OJ"/>
+		</Unit>
+		<Unit filename="/Users/eathoublu/CLionProjects/OJ/PP3.cpp">
+			<Option target="OJ"/>
+		</Unit>
+		<Unit filename="/Users/eathoublu/CLionProjects/OJ/PP4.cpp">
+			<Option target="OJ"/>
+		</Unit>
+		<Unit filename="/Users/eathoublu/CLionProjects/OJ/PP5.cpp">
+			<Option target="OJ"/>
+		</Unit>
+		<Unit filename="/Users/eathoublu/CLionProjects/OJ/PP6.cpp">
+			<Option target="OJ"/>
+		</Unit>
+		<Unit filename="/Users/eathoublu/CLionProjects/OJ/PP7.cpp">
+			<Option target="OJ"/>
+		</Unit>
+		<Unit filename="/Users/eathoublu/CLionProjects/OJ/PP8.cpp">
+			<Option target="OJ"/>
+		</Unit>
+		<Unit filename="/Users/eathoublu/CLionProjects/OJ/cmake-build-debug/CMakeFiles/P4.cpp">
+			<Option target="OJ"/>
+		</Unit>
+		<Unit filename="/Users/eathoublu/CLionProjects/OJ/cmake-build-debug/CMakeFiles/P6.cpp">
+			<Option target="OJ"/>
+		</Unit>
+		<Unit filename="/Users/eathoublu/CLionProjects/OJ/cmake-build-debug/P3.cpp">
+			<Option target="OJ"/>
+		</Unit>
+		<Unit filename="/Users/eathoublu/CLionProjects/OJ/cmake-build-debug/P5.cpp">
+			<Option target="OJ"/>
+		</Unit>
+		<Unit filename="/Users/eathoublu/CLionProjects/OJ/cmake-build-debug/P7.cpp">
+			<Option target="OJ"/>
+		</Unit>
+		<Unit filename="/Users/eathoublu/CLionProjects/OJ/cmake-build-debug/help_2.c">
+			<Option target="OJ"/>
+		</Unit>
+		<Unit filename="/Users/eathoublu/CLionProjects/OJ/cmake-build-debug/test.cpp">
+			<Option target="OJ"/>
+		</Unit>
+		<Unit filename="/Users/eathoublu/CLionProjects/OJ/help.c">
+			<Option target="OJ"/>
+		</Unit>
+		<Unit filename="/Users/eathoublu/CLionProjects/OJ/help.cpp">
+			<Option target="OJ"/>
+		</Unit>
+		<Unit filename="/Users/eathoublu/CLionProjects/OJ/main.cpp">
+			<Option target="OJ"/>
+		</Unit>
+		<Unit filename="/Users/eathoublu/CLionProjects/OJ/test_1.c">
+			<Option target="OJ"/>
+		</Unit>
+		<Unit filename="/Users/eathoublu/CLionProjects/OJ/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
